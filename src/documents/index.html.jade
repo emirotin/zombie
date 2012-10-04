@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+script(src="/javascripts/jade-runtime.js")
+script
+  window.JST = {}
+script(src="/templates/test.js")
+script
+  var d = document.createElement('div');
+  d.innerHTML = JST.test({x: 1});
+  document.body.appendChild(d);

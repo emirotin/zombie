@@ -1,0 +1,12 @@
+{
+  "name": "brain-zombie",
+  "version": "0.0.1",
+  "dependencies": {
+    "coffee-script": "*",
+    "jade": "0.27.5",
+    "docpad-plugin-sass": "*",
+    "docpad-plugin-jade": "*",
+    "docpad-plugin-coffeescript": "*",
+    "docpad-plugin-client-jade": "*"
+  }
+}

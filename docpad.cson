@@ -1,0 +1,5 @@
+plugins:
+  cjade:
+    namespace: 'window.JST'
+  sass:
+    compass: true
