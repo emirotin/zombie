@@ -1,5 +1,6 @@
 plugins:
-  cjade:
-    namespace: 'window.JST'
   sass:
     compass: true
+  'client-jade':
+    prettify: 1
+    namespace: 'window.JST'
